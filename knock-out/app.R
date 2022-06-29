@@ -11,8 +11,7 @@ library(maftools, lib.loc = "/stor/work/FRI-BigDataBio/wj3972/mm_shiny/knock-out
 library(DT) # data table display
 library(tidyverse)
 library(plotly)
-
-# library(data.table)
+library(data.table)
 
 source("./scripts/circosplot.R") # script to plot circos plot
 source("./scripts/load_plots.R") # script to plot the neoantigen load
